@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: left;
+    height: 55px;
+}
+
+.header-left{
+    margin-left: 30px;
+    padding: 11px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-left span {
+    color: white;
+    font-size: 26px;
+    font-family: serif;
+    margin-left: 15px;
+}
+
+.logo{
+    height: 50px;
+    border-radius: 50%;
+}
+
+body{
+    background-color: rgb(225, 246, 213);
+    font-family: monospace;
+}
+.acd-check{
+    display: none;
+}
+.acd-label{
+    background:white;
+    color: black;
+    display: block;
+    margin-bottom: 1px;
+    padding: 10px;
+    font-size: 30px;
+
+}
+.acd-content{
+    font-size: 23px;
+    height: 0;
+    opacity: 0;
+    padding: 0 10px;
+    transition: .5s;
+    visibility: hidden;
+}
+.acd-check:checked + .acd-label + .acd-content{
+    height: 40px;
+    opacity: 1;
+    padding: 10px;
+    visibility: visible;
+}
+.desease{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+.desease-title{
+    margin-top: 30px;
+    font-size: 35px;
+    margin-bottom: 17px;
+    margin-left: 15px;
+}
+
+.feature{
+   border: 7px  solid white;
+   height: 200px;
+   margin-top: 50px;
+   border-radius: 5%;
+}
+
+.feature div{
+    width: 100%;
+    text-align: center;
+    margin-top: 35px;
+    font-weight: bolder;
+    
+    /* width: 350px; */
+}
+
+.feature h1 {
+    font-size: 38px;
+    background: linear-gradient(transparent 60%, rgb(153, 230, 153) 30%);
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.feature p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 27px;
+}
+
+.ft-text{
+    width: 100%;
+    background-color:white;
+    height: 55px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
