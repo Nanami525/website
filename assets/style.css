@@ -33,21 +33,11 @@ header{
     border-radius: 50%;
 }
 
-.top{
-    height: 200px;
-    width: 80%;
-    border: 3px solid white;
-    margin: 0 auto;
-    border-radius: 20px;
-    margin-top: 60px;
-    background-color: rgb(191, 250, 103)
-}
-
-.top h1{
-    text-align: center;
-    margin-top: 10px;
-    font-size: 35px;
-    color: white;
+.top-img{
+    flex: content;
+    flex-direction: column;
+    width: 100%;
+    height: 450px;
 }
 
 .top p{
