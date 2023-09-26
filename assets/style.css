@@ -40,6 +40,11 @@ header{
     height: 450px;
 }
 
+@media screen and (max-width:780px) {
+  .top-img{
+    width: 100%;
+  }   
+}
 .top p{
     text-align: center;
     font-size: 23px;
@@ -87,6 +92,7 @@ header{
     .dog{
         display: flex;
         flex-direction: column;
+
     }
 }
 
