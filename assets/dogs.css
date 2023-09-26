@@ -111,5 +111,10 @@ body{
     text-align: center;
     padding-top: 20px;
 }
+@media screen and(max-width:780px) {
+    .feature{
+        font-size: 10px;
+    }
+}
 
 
