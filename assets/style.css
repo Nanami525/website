@@ -92,7 +92,7 @@ header{
     .dog{
         display: flex;
         flex-direction: column;
-
+        
     }
 }
 
